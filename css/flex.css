@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.heroimage {
+  height: 600px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-title {
+  width: 496px;
+}
+.heroimage button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.info {
+  margin: 120px;
+}
+.info ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.info ul li {
+  width: 264px;
+}
+
+.our-work li {
+  border: 1px solid var(--cornflower, #e7e9fc);
+}
+.our-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}

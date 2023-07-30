@@ -55,7 +55,7 @@ header {
 }
 
 footer {
-  background: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue, #2e2f42);
 }
 
 .logo-header {
@@ -195,3 +195,6 @@ footer {
   text-align: center;
 }
 
+.our-team {
+  background-color: var(--cloud, #f4f4fd);
+}

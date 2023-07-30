@@ -1,12 +1,19 @@
+body {
+  width: 1440px;
+}
+
+section {
+  margin-block: 120px 156px;
+}
 header {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  padding: 0 156px;
 }
 
 .nav-menu {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+
   gap: 40px;
 }
 
@@ -28,9 +35,6 @@ header {
   gap: 10px;
 }
 
-.info {
-  margin: 120px;
-}
 .info ul {
   display: flex;
   justify-content: center;
@@ -41,6 +45,7 @@ header {
 }
 
 .our-work li {
+  display: flex;
   border: 1px solid var(--cornflower, #e7e9fc);
 }
 .our-work {
@@ -48,4 +53,42 @@ header {
   flex-direction: row;
   justify-content: center;
   gap: 24px;
+}
+
+.members {
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.person {
+  display: inline-flex;
+  flex-direction: column;
+
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.member-name {
+  margin: 32px;
+}
+.our-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 732px;
+}
+
+footer {
+  height: 312px;
+  padding: 100px 156px;
+}
+
+.footer-text {
+  width: 264px;
+  height: 112px;
 }

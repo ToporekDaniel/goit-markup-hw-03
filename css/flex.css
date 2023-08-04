@@ -130,6 +130,10 @@ ul {
   width: max-content;
 }
 
+.filters {
+  padding-bottom: 72px;
+}
+
 .project-cards {
   display: flex;
   justify-content: flex-start;
@@ -138,15 +142,11 @@ ul {
   column-gap: 24px;
 }
 .project-card-text {
-  margin: 32px 16px;
+  padding: 36px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: 0;
 }
 
-.project-card {
-  width: 360px;
-  height: 420px;
-  overflow: hidden;
-}
-
-.filters {
-  padding-bottom: 72px;
+.project-card img {
+  display: block;
 }

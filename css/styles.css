@@ -180,7 +180,6 @@ footer {
 }
 
 .project-card {
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 

@@ -12,6 +12,7 @@ section {
 header {
   display: flex;
   align-items: center;
+  height: 72px;
   padding: 0 156px;
 }
 
@@ -39,6 +40,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 48px;
 }
 .hero-title {
   width: 496px;
@@ -136,14 +138,15 @@ ul {
   column-gap: 24px;
 }
 .project-card-text {
-  padding: 32px 16px;
+  margin: 32px 16px;
 }
 
 .project-card {
-  display: flex;
-  flex-direction: column;
-
   width: 360px;
   height: 420px;
   overflow: hidden;
+}
+
+.filters {
+  padding-bottom: 72px;
 }

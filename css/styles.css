@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -28,7 +29,8 @@ section {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 a {
@@ -318,7 +320,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 36px 16px;
+  padding: 32px 16px;
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: 0;
 }

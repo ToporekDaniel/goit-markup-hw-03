@@ -68,9 +68,12 @@ h3 {
 
 .header-block {
   display: flex;
+  width: 1158px;
 }
 
 header {
+  display: flex;
+  justify-content: center;
   padding: 24px 156px;
 
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
@@ -78,9 +81,16 @@ header {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+
   background-color: var(--navyblue, #2e2f42);
 
   padding: 100px 156px;
+}
+
+.footer-block {
+  width: 1158px;
 }
 
 .footer-text {

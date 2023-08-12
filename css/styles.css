@@ -165,7 +165,7 @@ footer {
 }
 
 .filters ul {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 24px;
 }
@@ -191,8 +191,10 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-.filter-button:hover {
-  border-radius: 4px;
+
+.filter-button:hover,
+.filter-button:focus {
+  border: 1px solid var(--ocean, #404bbf);
   background: var(--ocean, #404bbf);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -200,14 +202,6 @@ footer {
   color: var(--white, #fff);
 
   cursor: pointer;
-}
-.filter-button:focus {
-  border-radius: 4px;
-  background: var(--ocean, #404bbf);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-
-  color: var(--white, #fff);
 }
 
 .heroimage {
